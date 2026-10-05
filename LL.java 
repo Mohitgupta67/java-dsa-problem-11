@@ -1,4 +1,4 @@
-public class LL {
+8public class LL {
     Node  head;
     class Node {
         String data;
@@ -47,6 +47,8 @@ System.out.println("Null");
       LL list = new LL();
       list.addFirst("a");
       list.addFirst("is");
+      list.addFirst("list");
+      list.addFirst("this");
       list.printList();
     }
 }
